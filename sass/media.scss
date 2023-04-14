@@ -1,0 +1,25 @@
+@media screen and (min-width:750px){
+  .center {
+    padding-left: calc(50vw - 420px);
+    padding-right: calc(50vw - 420px);
+  }
+  body {
+    font-size: 18px;
+    line-height: 1.5;
+    .header {
+      padding-top: 28px;
+      padding-bottom: 28px;
+      &__toggler {
+        display: none;
+      }
+      .button {
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px){
+  .center {
+    padding-left: calc(50vw - 675px);
+    padding-right: calc(50vw - 675px);
+  }
+}
